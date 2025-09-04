@@ -1,1 +1,6 @@
-$(function () {});
+$(function () {
+  $(".tabmenu > li > a").click(function (e) {
+    e.preventDefault();
+    console.log($(this));
+  });
+});
